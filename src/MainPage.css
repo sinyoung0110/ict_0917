@@ -1,0 +1,21 @@
+/* src/components/MainPage.css */
+.main-page {
+  padding:10px;
+}
+.title{
+  font-weight: bolder;
+  font-size:27px;
+  text-align: left;
+  padding-left: 30px;
+}
+.contains{
+  display:flex;
+  justify-content: center; /* 가로 정렬을 수행합니다. */
+  align-items: center; /* 수직 정렬을 수행합니다. */
+  padding-left: 10px; /* 내용과 가장자리 사이의 간격을 조절합니다. */
+  padding-right: 10px;
+}
+.pet{
+  background-color: #FFEAEA;
+  border-radius: 10px;
+}
