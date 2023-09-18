@@ -1,12 +1,10 @@
 /* src/components/MainPage.css */
-.main-page {
-  padding:10px;
-}
 .title{
-  font-weight: bolder;
-  font-size:27px;
+  font-weight: bold;
+  font-size:20px;
   text-align: left;
   padding-left: 30px;
+  line-height:0px;
 }
 .contains{
   display:flex;

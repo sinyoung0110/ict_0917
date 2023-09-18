@@ -1,10 +1,13 @@
 import React from 'react';
 import './MainPage.css';
 import { Link } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
 
 function MainPage() {
   return (
     <div class="main-page">
+      <Header />
       <div class="profile">
         <p class="title">반려동물 프로필</p>
         <div class="contains">
@@ -18,7 +21,7 @@ function MainPage() {
         </clipPath>
         </defs>
         </svg>
-        <Link to="/profile"><img src="./profile.png"></img></Link>
+        <Link to="/profile"><img src="./profile.png"width="331px"></img></Link>
         <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1.1022 15.864L15.0612 8.28789L1.02052 0.864231" stroke="black" stroke-width="1.54984" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -26,12 +29,13 @@ function MainPage() {
       </div> 
       <div class="board">
         <p class="title">오늘의 인기글</p>
-        <img src="./board.png"></img>
+        <img src="./board.png" width="302px"></img>
       </div>
       <div class="map">
         <p class="title">오늘의 추천 경로</p>
-        <img src="./map.png"></img>
+        <img src="./map.png" width="302px"></img>
       </div>
+      <Footer />
     </div>
     
   );
