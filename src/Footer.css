@@ -9,6 +9,8 @@
     border-top: 1px solid #ddd; /* 원하는 border 스타일 및 색상을 지정하세요 */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
     background-color: white;
+    padding-top:10px;
+    padding-bottom:10px;
   }
   svg{
     flex:1;

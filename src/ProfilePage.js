@@ -1,5 +1,7 @@
 import React from 'react';
 import './ProfilePage.css';
+import Header from './Header';
+import Footer from './Footer';
 /**
  * <div class="pet-introduction">
         <h2>프레도</h2>
@@ -10,7 +12,7 @@ import './ProfilePage.css';
 function ProfilePage() {
   return (
     <div class="body">
-      
+      <Header />
       <img src="./predo.png" width="390px"></img>
       <div class="opacity">
       <svg width="390" height="194" viewBox="0 0 390 194" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,6 +80,7 @@ function ProfilePage() {
 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
 
     </div>
+    <Footer />
     </div>
   );
 }
