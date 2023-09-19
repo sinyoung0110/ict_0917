@@ -17,7 +17,7 @@ function BoardPage() {
       <div
         style={{
           backgroundColor: "rgba(255, 255, 255, 1)",
-          width:"390px",
+          width:"100%",
           display: "flex",
           alignItems: "flex-start",
           flexShrink: "0",

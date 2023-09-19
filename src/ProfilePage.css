@@ -13,7 +13,6 @@
     
 }
 .article{
-    
     position:relative;
     top:-200px;
 }
@@ -50,6 +49,6 @@
 .opacity{
     position:relative;
     top:-130px;
-    left:6px;
+    left: 3px;
 
 }

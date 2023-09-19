@@ -6,8 +6,9 @@ import Footer from './Footer';
 
 function MainPage() {
   return (
-    <div class="main-page">
+    <div>
       <Header />
+      
       <div class="profile">
         <p class="title">반려동물 프로필</p>
         <div class="contains">
@@ -35,6 +36,7 @@ function MainPage() {
         <p class="title">오늘의 추천 경로</p>
         <img src="./map.png" width="302px"></img>
       </div>
+      
       <Footer />
     </div>
     

@@ -2,15 +2,20 @@
     display: flex; /* Flexbox를 활성화합니다. */
     justify-content: center; /* 가로 정렬을 수행합니다. */
     align-items: center; /* 수직 정렬을 수행합니다. */
-    
-    
     height:67px;
+    width:346px;
+    position:fixed;
+    top:0;
     text-align:center;
     padding-left:20px;
     padding-right:20px;
     border: 1px solid #ddd; /* 원하는 border 스타일 및 색상을 지정하세요 */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+    margin-bottom:100px;
+    background-color:white;
   }
-  h1{
-    flex:20;
-  }
+.logo{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 100px;
+}
