@@ -2,6 +2,7 @@ import React from 'react';
 import './ProfilePage.css';
 import Header from './Header';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 /**
  * <div class="pet-introduction">
         <h2>프레도</h2>
@@ -48,12 +49,13 @@ function ProfilePage() {
       <path d="M5.23704 11.982C6.44609 11.982 7.42622 11.0019 7.42622 9.79282C7.42622 8.58377 6.44609 7.60364 5.23704 7.60364C4.02798 7.60364 3.04785 8.58377 3.04785 9.79282C3.04785 11.0019 4.02798 11.982 5.23704 11.982Z" stroke="#141415" stroke-width="1.64189" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
       About Information</p>
+      <Link to="/weight" style={{ textDecoration: "none" }}>
       <div class="detail">
-        <div class="detail1">weight<p class="bold">5.5kg</p></div>
-        <div class="detail1">Height<p class="bold">42cm</p></div>
+        <div class="detail1">weight<p class="bold">15kg</p></div>
+        <div class="detail1">Height<p class="bold">25cm</p></div>
         <div class="detail1">color<p class="bold">Brown</p></div>
-        
       </div>
+      </Link>
       <p class="today"><p class="bold">오늘의 특이사항</p> 프레도의 검사 결과</p>
       <p><svg width="390" height="126" viewBox="0 0 390 126" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="390" height="125" transform="translate(-3 0.0133057)" fill="white"/>
