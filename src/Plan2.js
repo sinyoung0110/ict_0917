@@ -49,14 +49,14 @@ function Plan() {
           width: "390px",
           position: "fixed",
           left:"-199px",
-          top:"-7px",
+          top:"7px",
           
           
           
         }}>
         <Link to='/cal'>
         <img
-          src="./plan.png"
+          src="./plan2.png"
           style={{
             width: "100%",
             position: "absolute",

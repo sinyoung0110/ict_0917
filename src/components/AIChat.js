@@ -31,7 +31,7 @@ const AIChat = (props) => {
           textAlign: 'left',
           lineHeight: '22px',
           flexGrow: 1,
-          fontFamily: 'Rubik',
+           
           fontSize: 14,
           fontStretch: 'normal',
           fontStyle: 'Regular',

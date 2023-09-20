@@ -36,7 +36,7 @@ function LoginPage() {
             position: "absolute",
             fontStyle: "Semi Bold",
             textAlign: "left",
-            fontFamily: "Inter",
+            
             fontWeight: 700,
             lineHeight: "normal",
             fontStretch: "normal",
@@ -56,7 +56,7 @@ function LoginPage() {
             position: "absolute",
             fontStyle: "Medium",
             textAlign: "center",
-            fontFamily: "Inter",
+            
             fontWeight: 500,
             lineHeight: "normal",
             fontStretch: "normal",
@@ -76,7 +76,7 @@ function LoginPage() {
             position: "absolute",
             fontStyle: "Medium",
             textAlign: "center",
-            fontFamily: "Inter",
+            
             fontWeight: 500,
             lineHeight: "normal",
             fontStretch: "normal",
@@ -96,7 +96,7 @@ function LoginPage() {
             position: "absolute",
             fontStyle: "Medium",
             textAlign: "center",
-            fontFamily: "Inter",
+            
             fontWeight: 500,
             lineHeight: "normal",
             fontStretch: "normal",
@@ -139,7 +139,7 @@ function LoginPage() {
                 fontSize: 14,
                 fontStyle: "Medium",
                 textAlign: "center",
-                fontFamily: "Inter",
+                
                 fontWeight: 500,
                 lineHeight: "normal",
                 fontStretch: "normal",
@@ -147,7 +147,7 @@ function LoginPage() {
               }}
             >
               <input
-                type="text"
+                type="password"
                 placeholder="비밀번호"
                 style={{
                   border: "0",
@@ -192,7 +192,7 @@ function LoginPage() {
                 fontSize: 14,
                 fontStyle: "Medium",
                 textAlign: "center",
-                fontFamily: "Inter",
+                
                 fontWeight: 500,
                 lineHeight: "normal",
                 fontStretch: "normal",
@@ -211,7 +211,7 @@ function LoginPage() {
             </span>
           </div>
         </div>
-        <Link to="/main">
+        <Link to="/petinfo">
         <button
           style={{
             top: "504px",
@@ -238,7 +238,7 @@ function LoginPage() {
               position: "absolute",
               fontStyle: "Bold",
               textAlign: "center",
-              fontFamily: "Inter",
+              
               fontWeight: 700,
               lineHeight: "normal",
               fontStretch: "normal",
@@ -346,7 +346,7 @@ function LoginPage() {
             position: "absolute",
             fontStyle: "Medium",
             textAlign: "center",
-            fontFamily: "Inter",
+            
             fontWeight: 500,
             lineHeight: "normal",
             fontStretch: "normal",

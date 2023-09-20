@@ -10,6 +10,10 @@ import Plan from './Plan';
 import Diary from './Diary';
 import Chatbot from './Chatbot';
 import Map from './Map';
+import PetInfo from './PetInfo';
+import Cal from './Cal';
+import Plan2 from './Plan2';
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +28,9 @@ function App() {
         <Route path="/diary" element={<Diary />} />
         <Route path="/chatbot" element={<Chatbot />} />
         <Route path="/map" element={<Map />} />
+        <Route path="/petinfo" element={<PetInfo />} />
+        <Route path="/cal" element={<Cal />} />
+        <Route path="/plan2" element={<Plan2 />} />
       </Routes>
       </Router>
       

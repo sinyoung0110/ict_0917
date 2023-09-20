@@ -106,7 +106,7 @@ const Chatbot = (props) => {
               style={{
                 width : 320,
                 fontWeight: 400,
-                fontFamily: 'Rubik',
+                
                 textAlign: 'left',
                 fontSize: '16px',
                 color: 'rgba(160, 155, 162, 1)',

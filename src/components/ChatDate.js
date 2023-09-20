@@ -9,7 +9,7 @@ const ChatDate = (props) =>{
   textAlign: 'center',
   lineHeight: '22px',
   alignSelf: 'stretch',
-  fontFamily: 'Rubik',
+   
   fontSize: 14,
   fontStretch: 'normal',
   fontStyle: 'Regular',
